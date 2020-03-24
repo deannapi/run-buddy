@@ -291,7 +291,7 @@ section {
     color: #fce138;
 }
 
-.contact-form input; .contact-form textarea {
+.contact-form input, .contact-form textarea {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
