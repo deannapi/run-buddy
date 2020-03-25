@@ -1,7 +1,7 @@
 :root {
-    --primary-color: var(--primary-color);
-    --secondary-color: var(--secondary-color);
-    --tertiary-color: var(--tertiary-color);
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
 }
 
 * {
@@ -263,7 +263,7 @@ section {
 
 .step-info {
     flex: 2 70%;
-    display: fle;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -276,6 +276,7 @@ section {
 .step-text {
     flex: 12;
 }
+
 .step-img img {
      max-width: 100%;
  }
@@ -292,13 +293,14 @@ section {
 }
 
 .step {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #39a6b2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .step:not(:last-child) {
@@ -306,7 +308,7 @@ section {
 }
 
 .trainer {
-    margin: 0 auto 20px auto;
+    margin: 20px;
     background: var(--secondary-color);
     color: var(--primary-color);
     flex: 1;
@@ -535,7 +537,7 @@ section {
         text-align: center;
     }
 
-    .seection-title {
+    .section-title {
         width: 80%;
     }
     
